@@ -8,7 +8,8 @@ class App extends React.Component{
         super();
         this.state = {
             newDate: '',
-            birthday:'1996-06-22'
+            birthday:'1996-06-22',
+            showStats: false
         }
     }
     changeBirthday() {
